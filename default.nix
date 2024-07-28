@@ -6,7 +6,7 @@ rustPlatform.buildRustPackage {
   src = fetchFromGitHub {
     owner = "areif-dev";
     repo = "river-bsp-layout";
-    rev = "6aa1dd250a2b69dc3222afe39303c5fb02e07f74";
+    rev = "8ca2dd6e5d5f21e6dbef8900a25f3389e2061e8f";
     sha256 = "";
   };
   cargoLock.lockFile = ./Cargo.lock;
